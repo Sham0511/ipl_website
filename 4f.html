@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        @keyframes running-text {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        
+        .copyright {
+            background: #0645ad;
+            font-weight: bold;
+            height: 85px;
+            padding-top: 7px;
+            text-align: center;
+            width: 100%;
+            overflow: hidden; 
+        }
+
+        
+        .running-text {
+            white-space: nowrap;
+            animation: running-text 10s linear infinite; 
+        }
+    </style>
+</head>
+<body>
+    <div class="copyright">
+        <p class="running-text">Copyright © IPL 2024 All Rights Reserved.</p>
+    </div>
+</body>
+</html>
